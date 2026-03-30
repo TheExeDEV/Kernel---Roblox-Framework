@@ -5,7 +5,7 @@
 --Server Runtime
 local Kernel = require(game:GetService("ReplicatedStorage").Kernel)
 
-Kernel.SetServiceFolder(script.Services)
+Kernel.SetServiceFolder(script.Services) --where will the services be taken from
 
 Kernel.AddMiddleware(function(context, ...)
 	print(string.format("[middleware] %s: %s.%s", context.Player.Name, context.Service, context.Method))
@@ -20,7 +20,7 @@ Kernel.Start()
 --Client Runtime
 local Kernel = require(game:GetService("ReplicatedStorage").Kernel)
 
-Kernel.SetControllerFolder(script.Controllers)
+Kernel.SetControllerFolder(script.Controllers) --where will the controllers be taken from
 Kernel.Start()
 ```
 - Service & Controller Sides
