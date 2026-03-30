@@ -40,7 +40,7 @@ local TestService = Kernel.CreateService({
 })
 
 function TestService:KernelInit()
-	print("im first started")
+	print("im first started in server")
 	
 	self.Client.ping:Connect(function(player)
 		print("ping", player.Name)
