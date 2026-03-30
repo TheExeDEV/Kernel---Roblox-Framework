@@ -2,8 +2,7 @@
 
 - GithubLink  - [link](https://github.com/TheExeDEV/Kernel-Roblox-Framework/)
 - RobloxModel - [link](https://create.roblox.com/store/asset/93082908591460)
-
-version - 1.0.0
+- version - 1.0.0
 # How To Use
 - Server Side Runtime
 ```lua
