@@ -1,4 +1,10 @@
-# Kernel-Roblox-Framework
+## Kernel Framework
+
+#
+ GithubLink  - [link](https://github.com/TheExeDEV/Kernel-Roblox-Framework/)
+  RobloxModel - [link](https://create.roblox.com/store/asset/93082908591460)
+
+version - 1.0.0
 # How To Use
 - Server Side Runtime
 ```lua
@@ -82,9 +88,14 @@ end
 
 return TestController
 ```
+# why is it better than the Knit Framework:
+- Knit is an archived Framework
+- Knit has poor networking
+- Knit is quite old and needs to be updated
 
 # Contributors
 - [Promise by evaera](https://github.com/evaera/roblox-lua-promise)
 - [RateLimiter by MadStudioRoblox](https://github.com/MadStudioRoblox/ReplicaService/blob/master/src/ReplicatedStorage/RateLimiter.lua)
   
 - [The idea was taken from the Knit Framework](https://github.com/Sleitnick/Knit)
+###### - my first job
